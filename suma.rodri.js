@@ -1,8 +1,8 @@
-a=[1,2,3,5,6,4,7,8,9]
+let a=[1,2,3,5,6,4,7,8,9]
 
 function max(a){ 
 
-        max = 0;
+        let max = 0;
         for (let i = 0; i < a.length; i++) {
             if (a[i]> i) {
                 max = a[i];
@@ -15,4 +15,4 @@ function max(a){
 
 }
 
-console.log(max(a))
+console.log("El mayor numero del array es: " + max(a))
