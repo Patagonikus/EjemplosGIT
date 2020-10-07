@@ -14,5 +14,4 @@ function max(a){
         return max;
 
 }
-
 console.log("El mayor numero del array es: " + max(a))
