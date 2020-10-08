@@ -23,3 +23,4 @@ function ArrayToInt(listado){
 
 console.log(getMaxOfArray(a));
 console.log(ArrayToInt(listadoNum));
+console.log("Emi");
