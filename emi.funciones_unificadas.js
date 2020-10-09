@@ -25,3 +25,4 @@ function maximo(unArray) {
 console log("resultados de Emiliano:");
 console.log(purgar(arrayB));
 console.log(maximo(purgar(arrayB)));
+console.log("Rodri estuvo aqui");

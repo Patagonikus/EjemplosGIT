@@ -11,7 +11,20 @@ function num_array (arraycompleto)
         }
         
     }
+
     return arraynum;
 }
+function max(a){ 
+    let max = 0, aPurgado = num_array(a);
+    for (let i = 0; i < aPurgado.length; i++) {
+        if (aPurgado[i]> i) {
+            max = a[i];
+        }  
+    }
+    return max;
 
-console.log(num_array(arraycomp));
+}
+
+console.log("El mayor numero del array es: " +max(arraycomp) );
+console.log("Array purgado: " +num_array(arraycomp) );
+console.log("Soy Rodri");
